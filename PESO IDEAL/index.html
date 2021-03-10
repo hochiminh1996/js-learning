@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Peso</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="Felippe M">
+		<script type="text/javascript" src="arquivo.js"></script>
+	</head>
+	<body>
+		<div id="principal">
+			<div id="conteudo">
+				<h2>Peso ideal</h2>
+				<form method="GET" action="">
+					<label for="nome" class="titulo">Nome: </label>
+						<input type="text" name="nome" id="nome" class="campo" required>
+					<label class="titulo">Sexo: </label>
+						<input type="radio" name="sexo" id="masc" value="masc">
+						<label for="masc" class="lb">Masculino:</label>
+							
+						<input type="radio" id="fem" name="sexo" value="fem">	
+						<label for="fem" class="lb">Feminino:</label>		
+					
+					<label for="alt" class="titulo">Altura:</label>
+						<input type="text" name="alt" class="campo" id="alt" required>			
+						
+					<input type="button" name="sub" value="Calcular Peso" class="btn" onclick="calc();">
+					<input type="button" class="btn" value="Limpar" onclick="limpar();">
+				</form>	
+				<span id="resultado" class="titulo"></span><!-- PARA RESULTADO-->
+			</div>
+		</div>
+	</body>
+</html>	
