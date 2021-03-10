@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<link rel="stylesheet" type="text/css" href="_css/estilo.css">
+</head>
+<body>
+	<div id="interface">
+		<div id="formu">
+			<h3>IMC</h3>
+			<form method="" action="">
+				<label for="peso" class="lb">Peso:</label>
+					<input type="text" name="peso" id="peso" class="campo">
+				<label for="altura" class="lb">Altura:</label>
+					<input type="text" name="altura" id="altura" class="campo">
+				<label for="resultado" class="lb">Resultado:</label>
+					<input type="text" name="resultado" id="resultado" class="campo" disabled="">
+				<label for="saude" class="lb">Saúde:</label>
+					<input type="text" name="saude" id="saude" class="campo" disabled="">				
+				<input type="button" name="btn" id="btn" value="Calcular" onclick="Calcular();">
+				<input type="button" name="limpar" id="btn" value="Limpar" onclick="Limpar();">	
+			</form>
+			<span id="re"></span>
+		</div>
+	</div>
+	<script type="text/javascript" src="_js/arquivo.js"></script>
+</body>
+</html>
