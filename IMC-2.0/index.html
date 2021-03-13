@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>IMC</title>
+		<meta charset="utf-8">
+		<meta name="author" content="Felippe M">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="_css/estilo.css">
+
+	</head>
+	<body>
+		<div id="interface">
+			<form action="" method="GET" id="formu">
+				<h2>CADASTRAR PACIÊNTE</h2>
+
+				<label for="nome" class="titulo">Nome :</label>
+					<input type="text" name="nome" id="nome" class="campo">
+				<label for="altura" class="titulo">Altura :</label>
+					<input type="text" name="altura" id="altura" class="campo">
+				<label for="peso" class="titulo">Peso :</label>
+					<input type="text" name="peso" id="peso" class="campo">
+					<input type="button" name="btn" id="btn" class="btn" value="Cadastrar">
+					<span id="msg" name="msg"></span>
+			</form>
+			
+		</div>
+
+		<table id="tabela">
+			<thead id="cabecalho-titulo">
+				<tr>
+					<th>Indíce</th>
+					<th>Nome</th>
+					<th>Peso(kg)</th>
+					<th>Altura(m)</th>
+					<th>IMC</th>
+				</tr>
+			</thead>
+		</table>
+
+	<script type="text/javascript" src="_js/arquivo.js"></script>	
+	<script type="text/javascript" src="_js/imc.js"></script><!--CHAMAMOS O JS A PARTE-->
+	</body>
+</html>	
